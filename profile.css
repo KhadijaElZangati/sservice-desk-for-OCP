@@ -1,0 +1,157 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .demande {
+    flex: 1;
+  }
+  
+  .floating-div {
+    flex-shrink: 0;
+    margin-left: 20px;
+    background-color: #fff;
+    width: 600px;
+    height: 300px;
+    text-align:center;
+    border-radius:12px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  }
+  
+  .floating-div h1, h2 {
+    color: #333;
+    margin: 20px;
+  }
+  
+  .explaination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .paragraph {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  }
+  
+  .paragraph h1 {
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .paragraph ul {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+  }
+  
+  .paragraph li {
+    margin-bottom: 10px;
+  }
+  
+  .paragraph li a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .paragraph li a:hover {
+    text-decoration: underline;
+  }
+  
+  .demande2 {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  /* Styles for the reclamations section */
+.explaination {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .paragraph {
+    margin-bottom: 30px;
+  }
+  
+  .paragraph h1 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .paragraph ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .paragraph li {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .demande2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .demande2 img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .explaination {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .paragraph {
+      margin-right: 50px;
+      margin-bottom: 0;
+    }
+  
+    .paragraph ul {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .paragraph li {
+      margin-right: 20px;
+      margin-bottom: 20px;
+      text-align: left;
+    }
+  
+    .demande2 {
+      margin-left: 50px;
+    }
+  }
+  
+  

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login Page</title>
+	<link rel="stylesheet" href="login.css">
+</head>
+<body>
+	<div class="container">
+		<form action="login.php" method="POST">
+		
+			<h2 class="heading">Bienvenue sur notre site web</h2>
+			<p class="subheading">Veuillez saisir votre adresse e-mail et votre mot de passe pour vous connecter.</p>
+			<div class="form-group">
+				<input type="email" name="email" value="" placeholder="Email" class="form-control">
+			</div>
+			<div class="form-group">
+				<input type="password" name="motdepasse" value="" placeholder="mot de passe" class="form-control">
+			</div>
+			<button type="submit" name="loginbt" class="btn btn-primary btn-block">Login</button>
+		
+			<p class="signup-link">Vous n'avez pas de compte? <a href="signup.php">Signup</a></p>
+		</form>
+	</div>
+	<script src="index.js"></script>
+</body>
+</html>

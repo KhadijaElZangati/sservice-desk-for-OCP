@@ -1,0 +1,71 @@
+/* Body styles */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Title styles */
+  .title {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  /* Show container styles */
+  .show {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image styles */
+  .img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Output styles */
+  .output {
+    margin-bottom: 20px;
+  }
+  
+  .output strong {
+    font-weight: bold;
+  }
+  
+  /* Answer styles */
+  .answer {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Submit button styles */
+  .signupbt, .levelbt {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    color: #ffffff;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .signupbt:hover, .levelbt:hover {
+    background-color: #00d10a;
+  }
+  
+
